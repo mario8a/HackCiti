@@ -25,6 +25,8 @@ export class TodoService {
     ));
    }
 
+  //  Metodos
+
    getTodos() {
      return this.todos;
    }
@@ -33,4 +35,18 @@ export class TodoService {
      return this.todosCollection.doc<TaskI>(id).valueChanges();
    }
 
+   //PUT
+   updateTodo(todo:TaskI, id: string) {
+     return this.todosCollection.doc(id).update(todo);
+   }
+
+    //POST
+   addTodo(todo:TaskI) {
+     return this.todosCollection.add(todo);
+   }
+
+   //DELETE
+   removeTodo(id:string){
+     return this.todosCollection.doc(id).delete();
+   }
 }
