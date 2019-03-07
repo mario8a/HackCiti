@@ -1,0 +1,1 @@
+# IonicCrud-firebase
