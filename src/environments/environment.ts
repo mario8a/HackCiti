@@ -5,12 +5,12 @@
 export const environment = {
   production: false,
    firebaseconfig : {
-    apiKey: "AIzaSyDs_pMnp05fuO_2ozWidysOfZ76y7V9Z6Q",
-    authDomain: "crudionic-76801.firebaseapp.com",
-    databaseURL: "https://crudionic-76801.firebaseio.com",
-    projectId: "crudionic-76801",
-    storageBucket: "crudionic-76801.appspot.com",
-    messagingSenderId: "284433947370"
+    apiKey: "AIzaSyDTb5bmSjW7rtyC_RDmldihvt67Grvfs7I",
+    authDomain: "citihack-8a0e7.firebaseapp.com",
+    databaseURL: "https://citihack-8a0e7.firebaseio.com",
+    projectId: "citihack-8a0e7",
+    storageBucket: "citihack-8a0e7.appspot.com",
+    messagingSenderId: "1047549022519"
   }
 };
 
