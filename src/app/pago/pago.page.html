@@ -1,0 +1,53 @@
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-title>enviodinerito</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+
+<ion-content color="dark" padding>
+
+    <!-- Input with value -->
+    <ion-card padding color="primary">
+        <ion-card-title>Ingresa el monto</ion-card-title>
+        <ion-grid>
+            <ion-row>
+                <ion-col size="2">
+                    <h1>
+                        <ion-label>$</ion-label>
+                    </h1>
+                </ion-col>
+                <ion-col size="10">
+                    <h1>
+                        <ion-input type="number"></ion-input>
+                    </h1>
+
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+
+    </ion-card>
+
+    <!-- Input with placeholder -->
+    <h1>
+        <ion-item>
+            <ion-label>Numero celular: </ion-label>
+            <ion-input type="number"></ion-input>
+        </ion-item>
+    </h1>
+    <h2>
+        <ion-item>
+            <ion-label>Numero destinatario: </ion-label>
+            <ion-input type="number"></ion-input>
+        </ion-item>
+    </h2>
+
+    <br>
+    <!-- Number type input -->
+
+    <ion-button expand="block" (click)="enviar()">Enviar</ion-button>
+
+
+    <!-- <barcode-scanner-livestream type="code_128" (valueChanges)="onValueChanges($event)"></barcode-scanner-livestream> -->
+
+</ion-content>

@@ -12,7 +12,7 @@ import { AngularFireModule } from 'angularfire2';
 import { environment } from '../environments/environment';
 import {AngularFirestoreModule} from 'angularfire2/firestore';
 
-
+import { BarecodeScannerLivestreamModule } from 'ngx-barcode-scanner';
 
 @NgModule({
   declarations: [AppComponent],
@@ -20,7 +20,8 @@ import {AngularFirestoreModule} from 'angularfire2/firestore';
   imports: [
     BrowserModule, IonicModule.forRoot(), AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebaseconfig),
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    BarecodeScannerLivestreamModule
   ],
   providers: [
     StatusBar,
